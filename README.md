@@ -1,2 +1,2 @@
-# GYM-CIA.github.io
-Proyecto web del equipo 13.
+# frontend-team-13
+TP 1: equipo 13
