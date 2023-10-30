@@ -485,11 +485,6 @@ button {
     align-items: center;
   }
 
-  .galeria img {
-    width: 100%;
-    height: auto;
-  }
-
   .horarios-tabla {
     display: block;
     text-align: left;
@@ -511,4 +506,9 @@ button {
     margin-top: 0;
     padding: 5%;
   }
+
+  .galeria img {
+    width: 20vw;
+    height: 15vh;
+}
 }
