@@ -1,4 +1,164 @@
 
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 36px;
+    margin: 10px 0;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+
+  h5 {
+    font-size: 16px;
+  }
+
+  h6 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .custom-btn {
+    padding: 10px 18px;
+    font-size: 14px;
+  }
+
+  .clases-info,
+  .clases {
+    padding: 1rem;
+  }
+
+  .clases-precio {
+    font-size: 16px;
+    width: 3rem;
+    height: 3rem;
+    line-height: 3rem;
+  }
+
+  .galeria img {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+  }
+
+  .footer {
+    font-size: 18px;
+  }
+
+  .presentacion-text {
+    margin-top: 5%;
+    padding: 2%;
+    font-size: 18px;
+  }
+}
+
+/* Estilos generales */
+body {
+  font-family: 'Plain', sans-serif;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 100;
+  line-height: normal;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: -2px;
+}
+
+h3 {
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  margin: 0;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+h5 {
+  font-size: 22px;
+}
+
+h6 {
+  color: #909090;
+  font-size: 22px;
+  line-height: inherit;
+  margin: 0;
+}
+
+p {
+  color: #666262;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.5em;
+}
+
+.custom-btn {
+  background: transparent;
+  border-radius: 2px;
+  padding: 14px 24px;
+  color: #c2ee0a;
+  font-size: 16px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+  transition: all 0.3s ease;
+}
+
+.custom-btn:hover {
+  color: #c2ee0a;
+}
+
+.custom-btn:focus {
+  box-shadow: none;
+}
+
+.custom-btn.bordered:hover,
+.custom-btn.bordered:focus,
+.custom-btn.bg-color:hover,
+.custom-btn.bg-color:focus {
+  background: #c2ee0a;
+  border-color: transparent;
+  color: #c2ee0a;
+}
+
+
+/*principal
+
   body {
   margin: auto;
   background-size: cover;
@@ -441,74 +601,7 @@ button {
   opacity: 1;
 }
 
-/* Nuevas reglas para hacer la página responsive */
 
-@media only screen and (max-width: 768px) {
-  /* Estilos para pantallas más pequeñas */
-  .flex-container {
-    flex-direction: column;
-    align-items: center;
-  }
+   
 
-  .burger-menu {
-    display: block;
-  }
-
-  .nav {
-    display: none;
-  }
-
-  .burger-icon {
-    display: inline-block;
-  }
-
-  .header {
-    padding: 10px;
-  }
-
-  .clases-info {
-    padding: 1rem;
-  }
-
-  .clases-precio {
-    top: 1rem;
-    right: 1rem;
-  }
-
-  .presentacion-text {
-    margin-top: 0;
-    padding: 10%;
-  }
-
-  .galeria {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .horarios-tabla {
-    display: block;
-    text-align: left;
-  }
-
-  .horarios-tabla th,
-  .schedule-table tr td:first-child {
-    background: #f36507;
-    border: 1px solid #f36507;
-    color: #c2ee0a;
-  }
-
-  .footer {
-    padding: 10px;
-    font-size: 18px;
-  }
-
-  .presentacion-text {
-    margin-top: 0;
-    padding: 5%;
-  }
-
-  .galeria img {
-    width: 20vw;
-    height: 15vh;
-}
-}
+ 
