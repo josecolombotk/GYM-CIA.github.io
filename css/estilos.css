@@ -440,3 +440,75 @@ button {
 
   opacity: 1;
 }
+
+/* Nuevas reglas para hacer la página responsive */
+
+@media only screen and (max-width: 768px) {
+  /* Estilos para pantallas más pequeñas */
+  .flex-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .burger-menu {
+    display: block;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .burger-icon {
+    display: inline-block;
+  }
+
+  .header {
+    padding: 10px;
+  }
+
+  .clases-info {
+    padding: 1rem;
+  }
+
+  .clases-precio {
+    top: 1rem;
+    right: 1rem;
+  }
+
+  .presentacion-text {
+    margin-top: 0;
+    padding: 10%;
+  }
+
+  .galeria {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .galeria img {
+    width: 100%;
+    height: auto;
+  }
+
+  .horarios-tabla {
+    display: block;
+    text-align: left;
+  }
+
+  .horarios-tabla th,
+  .schedule-table tr td:first-child {
+    background: #f36507;
+    border: 1px solid #f36507;
+    color: #c2ee0a;
+  }
+
+  .footer {
+    padding: 10px;
+    font-size: 18px;
+  }
+
+  .presentacion-text {
+    margin-top: 0;
+    padding: 5%;
+  }
+}
